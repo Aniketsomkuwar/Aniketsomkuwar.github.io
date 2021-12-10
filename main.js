@@ -156,18 +156,19 @@
   /**
    * Intro type effect
    */
-  const typed = select('.typed')
-  if (typed) {
-    let typed_strings = typed.getAttribute('data-typed-items')
-    typed_strings = typed_strings.split(',')
-    new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
-    });
-  }
+
+  var app = document.getElementById('typewriter');
+
+  var typewriter = new Typewriter(app, {
+      loop: true
+  });
+  
+  typewriter.typeString('Java Developer')
+      .pauseFor(2000)
+      .deleteAll()
+      .typeString('Front-End Web Developer')
+      .pauseFor(2000)
+      .start();
 
   /**
  
@@ -218,3 +219,5 @@
   }
 
 })()
+
+
