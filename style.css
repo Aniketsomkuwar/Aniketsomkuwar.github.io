@@ -702,6 +702,7 @@ a:hover {
 }
 
 .work-img img {
+
   transition: all 1s;
 }
 
@@ -735,6 +736,7 @@ a:hover {
 .d-flex justify-content-center   w-title {
   font-size: 1.2rem;
 }
+
 
 
 
@@ -803,3 +805,5 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+
