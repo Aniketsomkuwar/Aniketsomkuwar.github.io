@@ -146,7 +146,7 @@ a:hover {
 }
 
 .box-shadow-full {
-  padding: 3rem 1.25rem;
+  padding:  1rem;
   position: relative;
   background-color: #fff;
   margin-bottom: 3rem;
@@ -156,7 +156,7 @@ a:hover {
 
 @media (min-width: 768px) {
   .box-shadow-full {
-    padding: 3rem;
+    padding: 1rem;
   }
 }
 
