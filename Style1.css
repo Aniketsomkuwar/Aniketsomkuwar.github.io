@@ -1,3 +1,6 @@
+
+
+
 :root {
   --primary: #66fcf1;
   --secondary: #45a29e;
@@ -485,6 +488,7 @@ a:hover {
   opacity: 0.9;
 }
 .hero .hero-title {
+  font-family: sans-serif;
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
@@ -495,6 +499,7 @@ a:hover {
   }
 }
 .hero .hero-subtitle {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.5rem;
   font-weight: 600;
 }
